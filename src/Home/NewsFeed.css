@@ -1,0 +1,21 @@
+.fixed-container-news-feed {
+  position: sticky;
+}
+.feed-container {
+  height: 100vh;
+  width: auto;
+  overflow-y: auto;
+}
+.feed-container::-webkit-scrollbar {
+  display: none;
+}
+.bottom-text {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-style: italic;
+}
+.loader-cls {
+  margin: auto;
+  text-align: center;
+}
